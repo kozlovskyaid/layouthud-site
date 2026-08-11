@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - LayoutHUD</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6; color: #333; background: #f5f5f7; padding: 20px;
+        }
+        .container {
+            max-width: 800px; margin: 0 auto; background: white; padding: 40px;
+            border-radius: 16px; box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+        h1 { font-size: 2em; margin-bottom: 10px; color: #1d1d1f; }
+        .subtitle { color: #86868b; margin-bottom: 30px; }
+        h2 { font-size: 1.3em; margin-top: 30px; margin-bottom: 15px; color: #1d1d1f; }
+        p, li { color: #515154; margin-bottom: 12px; }
+        ul { padding-left: 20px; }
+        .faq-item {
+            background: #f5f5f7; padding: 20px; border-radius: 10px; margin: 15px 0;
+        }
+        .faq-item h3 { color: #1d1d1f; margin-bottom: 10px; font-size: 1.1em; }
+        .faq-item p { margin: 0; }
+        .contact-box {
+            background: linear-gradient(135deg, #1B22B8, #7C3AED);
+            padding: 30px; border-radius: 12px; margin: 30px 0; text-align: center;
+        }
+        .contact-box h2 { color: white; margin-top: 0; }
+        .contact-box p { color: rgba(255,255,255,0.9); }
+        .contact-box a {
+            display: inline-block; background: white; color: #1B22B8;
+            padding: 12px 30px; border-radius: 8px; text-decoration: none;
+            font-weight: 600; margin-top: 10px;
+        }
+        .contact-box a:hover { background: #f0f0f0; }
+        a { color: #007aff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .footer {
+            margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e5e5;
+            color: #86868b; font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Support</h1>
+        <p class="subtitle">LayoutHUD for macOS</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>Why does the app need the Accessibility permission?</h3>
+            <p>LayoutHUD uses the macOS Accessibility permission to detect which text field currently has keyboard focus and where it is on screen, so the layout indicator can appear right next to it. The permission is used only for this purpose. You can grant or revoke it in System Settings → Privacy &amp; Security → Accessibility.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>The badge doesn't appear — what should I check?</h3>
+            <p>First, make sure LayoutHUD is enabled in System Settings → Privacy &amp; Security → Accessibility. Then click into any text field — the badge shows up only while a text field is focused. If it still doesn't appear in a specific app, let us know which one.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I pin the badge to one spot on the screen?</h3>
+            <p>Open Settings from the LayoutHUD menu bar icon, set Position to “Fixed”, uncheck “Pin position”, click into any text field and drag the badge with the mouse. Then check “Pin position” again.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I give each layout its own color?</h3>
+            <p>In Settings, enable “Custom background color for each layout” and pick a color for every keyboard layout you use. This makes the current layout recognizable with peripheral vision, before reading a letter.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I make LayoutHUD start automatically?</h3>
+            <p>Move the app to the Applications folder and enable “Launch at login” in Settings → General.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I quit or uninstall the app?</h3>
+            <p>Click the LayoutHUD icon in the menu bar and choose “Quit LayoutHUD”. To uninstall, quit the app and move it from Applications to the Trash — this removes the app; settings are tiny preference entries you can leave or clean up with any preference cleaner.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Which languages does the interface support?</h3>
+            <p>English, Russian, Spanish and Simplified Chinese. The app follows your macOS language; you can override it per-app in System Settings → General → Language &amp; Region.</p>
+        </div>
+
+        <div class="contact-box">
+            <h2>Need More Help?</h2>
+            <p>We're here to help with any questions or issues.</p>
+            <a href="mailto:kozlovskyaid@icloud.com">Contact Support</a>
+        </div>
+
+        <h2>App Information</h2>
+        <ul>
+            <li><strong>Version:</strong> 1.0</li>
+            <li><strong>Requires:</strong> macOS 14 or later</li>
+        </ul>
+
+        <div class="footer">
+            <p><a href="index.html">Home</a> | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+        </div>
+    </div>
+</body>
+</html>
