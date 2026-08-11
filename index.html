@@ -49,6 +49,15 @@
         .links a { color: rgba(255,255,255,0.9); text-decoration: none; margin: 0 15px; font-size: 0.95em; }
         .links a:hover { color: white; text-decoration: underline; }
         h2 { text-align: center; margin-bottom: 30px; color: #1d1d1f; }
+        .download-btn {
+            display: inline-block; margin-top: 28px; padding: 14px 34px;
+            background: white; color: #1B22B8; font-size: 1.1em; font-weight: 600;
+            border-radius: 14px; text-decoration: none;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.3);
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        .download-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(0,0,0,0.35); }
+        .download-meta { margin-top: 12px; font-size: 0.85em; opacity: 0.75; }
     </style>
 </head>
 <body>
@@ -57,7 +66,8 @@
         <h1>LayoutHUD</h1>
         <p class="tagline">Always know your keyboard layout — a big, clear indicator right where you type.</p>
         <p class="platform">For macOS 14 or later</p>
-        <!-- Download button goes here once the DMG is published -->
+        <a class="download-btn" href="LayoutHUD-1.0.dmg" download>⬇︎&nbsp; Download for Mac</a>
+        <p class="download-meta">Version 1.0 · DMG, about 1 MB · notarized by Apple</p>
     </div>
 
     <div class="container">
